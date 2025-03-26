@@ -1,0 +1,15 @@
+export default function App(){
+return(
+<div className="p-4">
+{介绍}
+<h1 className="text-xl text-center mb-4">AI工具</h1>
+
+{种类}
+<div className="space-y-2">
+<div className="p-2 bg-gray-50 rounded">抖音AI</div>
+<div className="p-2 bg-gray-50 rounded">豆包</div>
+<div className="p-2 bg-gray-50 rounded">deepseek</div>
+</div>
+</div>
+);
+}
